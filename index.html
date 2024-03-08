@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda 2.0</title>
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,300&family=Oswald&display=swap"rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="capelo e diploma">
+            <h1>Agenda 2.0</h1>
+        </header>
+        <form id="formATV">
+            <input type="text" id="NomeContato" required placeholder="Nome" />
+            <input type="number" id="TelefoneContato" required placeholder="Número" min="1"  />
+            <input type="email" id="email" placeholder="E-mail" />
+            <button type="submit">Adicionar Contato</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do Contato</th>
+                    <th>Número do Contato</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td id="media-final-valor"></td>
+                    <td id="media-final-resultado"></span></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
